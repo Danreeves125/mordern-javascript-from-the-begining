@@ -1,3 +1,5 @@
+// Look at MDN documentation for more info.
+
 let val;
 
 const today = new Date();
