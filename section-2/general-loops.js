@@ -57,12 +57,12 @@ allSizes.forEach(function(size) {
 //     console.log(fruit[i]);
 // }
 
-// forEaach
+// forEach
 // fruits.forEach(function(fruit, index, array){
 //     console.log(`${fruit} : ${index} : ${array}`);
 // });
 
-// Map - is used to return a differernt array
+// Map - is used to return a different array
 // const users = [
 //     {id: 1, name: 'Dan'},
 //     {id: 2, name: 'Steve'},
