@@ -1,3 +1,11 @@
+/*
+    Project for the future
+
+    - Temp Converter
+    - Mortgage Calculator
+    - Kg to LBS converter
+*/
+
 // Listen for submit
 document.getElementById('loan-form').addEventListener('submit', function(e){
     // Hide Results
