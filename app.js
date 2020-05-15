@@ -1,3 +1,11 @@
+/*
+    Thing to add too application.
+
+    - Edit collection item
+    - Add checkbox to say it's done.
+ */
+
+
 // Define UI Vars
 const form = document.querySelector('#task-form'),
       taskList = document.querySelector('.collection'),
