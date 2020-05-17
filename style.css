@@ -1,0 +1,11 @@
+.message {
+    width: 100%;
+    display: flex;
+    padding: 15px;
+    border: 1px solid #333;
+    margin-bottom: 30px;
+}
+
+.message p {
+    margin-bottom: 0;
+}
