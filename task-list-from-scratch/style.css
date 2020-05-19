@@ -29,7 +29,7 @@
     width: calc(100% - 215px);
     margin: 0;
 }
-#task-form button {
+#task-form .button-primary {
     width: 200px;
     margin: 0;
 }
@@ -77,4 +77,18 @@
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
     color: #fff;
+}
+
+.alert {
+    width: 100%;
+    color: #fff;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+.alert--success {
+    background-color: green;
+}
+.alert--error {
+    background-color: red;
 }
