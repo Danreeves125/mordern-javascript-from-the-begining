@@ -1,52 +1,42 @@
-const http = new easyHTTP;
+// Normal Function
+// const sayHello = function() {
+//     console.log('hello');
+// }
 
-// Get Posts
-// http.get('https://jsonplaceholder.typicode.com/posts', function(error, posts){
-//     if(error) {
-//         console.log(error);
-//     } else  {
-//         console.log(posts);
-//     }
+// const sayHello = () => {
+//     console.log('hello');
+// }
+
+// One line function down not need braces
+// const sayHello = () => console.log('hello');
+
+// One line returns
+// const sayHello = () => 'Hello';
+
+// Rerun Object
+// const sayHello = () => ({msg: 'Hello'});
+
+// Single param does not ned parenthesis
+// const sayHello = name => console.log(`Hello ${name}`);
+
+// Multiple Params need parenthesis
+// const sayHello = (firstName, lastName) => console.log(`Hello ${firstName} ${lastName}`);
+// sayHello('dan', 'Reeves');
+
+const users = ['Dan', 'Jack', 'Shug'];
+
+// Old ES5
+// const nameLengths = users.map(function(name){
+//     return name.length;
 // });
 
-// Get Single Posts
-// http.get('https://jsonplaceholder.typicode.com/posts/1', function(error, posts){
-//     if(error) {
-//         console.log(error);
-//     } else  {
-//         console.log(posts);
-//     }
+// Shorter - Arrow Function
+// const nameLengths = users.map((name) => {
+//     return name.length;
 // });
 
-// create Data
-const data = {
-    title: 'Custom Post',
-    body: 'this is a custom post'
-};
+// Shortest
+const nameLengths = users.map((name => name.length));
 
-// Create Post
-// http.post('https://jsonplaceholder.typicode.com/posts', data, function(error, post){
-//     if(error) {
-//         console.log(error);
-//     } else  {
-//         console.log(post);
-//     }
-// })
 
-// Update Post
-// http.put('https://jsonplaceholder.typicode.com/posts/1', data, function(error, post){
-//     if(error) {
-//         console.log(error);
-//     } else  {
-//         console.log(post);
-//     }
-// });
-
-// Delete Post
-http.delete('https://jsonplaceholder.typicode.com/posts/1', function(error, posts){
-    if(error) {
-        console.log(error);
-    } else  {
-        console.log(posts);
-    }
-});
+console.log(nameLengths);
