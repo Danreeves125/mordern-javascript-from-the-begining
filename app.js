@@ -1,42 +1,34 @@
-// Normal Function
-// const sayHello = function() {
-//     console.log('hello');
+// Async on a function returns a promise
+// async function myFunc() {
+//
+//     const promise = new Promise((resolve, reject) => {
+//         setTimeout(() => resolve('Hello'), 1000);
+//     });
+//
+//     const error = true;
+//
+//     if(!error) {
+//         const res = await promise; // Wait until the promise is resolved
+//         return res;
+//     } else {
+//         await Promise.reject(new Error('Something went wrong'));
+//     }
 // }
+//
+// console.log(myFunc());
+//
+// myFunc()
+//     .then(res => console.log(res))
+//     .catch(err => console.log(err))
 
-// const sayHello = () => {
-//     console.log('hello');
-// }
+async function getUsers() {
+    // await the fetch call
+    const response = await fetch('https://jsonplaceholder.typicode.com/users');
 
-// One line function down not need braces
-// const sayHello = () => console.log('hello');
+    // Only proceed once its resolved
+    const data = await response.json();
+    // only proceed once the second promise is resolved
+    return data;
+}
 
-// One line returns
-// const sayHello = () => 'Hello';
-
-// Rerun Object
-// const sayHello = () => ({msg: 'Hello'});
-
-// Single param does not ned parenthesis
-// const sayHello = name => console.log(`Hello ${name}`);
-
-// Multiple Params need parenthesis
-// const sayHello = (firstName, lastName) => console.log(`Hello ${firstName} ${lastName}`);
-// sayHello('dan', 'Reeves');
-
-const users = ['Dan', 'Jack', 'Shug'];
-
-// Old ES5
-// const nameLengths = users.map(function(name){
-//     return name.length;
-// });
-
-// Shorter - Arrow Function
-// const nameLengths = users.map((name) => {
-//     return name.length;
-// });
-
-// Shortest
-const nameLengths = users.map((name => name.length));
-
-
-console.log(nameLengths);
+getUsers().then(users => console.log(users));
