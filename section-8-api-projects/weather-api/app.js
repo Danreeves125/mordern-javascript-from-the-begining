@@ -1,1 +1,14 @@
-// My API Key 7f5f6ae7107e3aff067409697cadf4e6
+// Init Weather Object
+const weather = new Weather('Telford');
+
+// Get weather on DOM load
+document.addEventListener('DOMContentLoaded', getWeather);
+
+
+function getWeather() {
+weather.getWeather()
+    .then(results => {
+        console.log(results);
+    })
+    .catch(err => console.log(err));
+}
