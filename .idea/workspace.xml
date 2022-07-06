@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e45c93bd-3dec-4d74-a594-492fd802021c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/projects/iterator-mini-project/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/iterator-mini-project/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section-10-other-new-features-es2015+/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section-10-other-new-features-es2015+/iterators-and-generators.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section-10-other-new-features-es2015+/symbols.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modern-js.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/section-4-dom-projects/loan-calculator/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/loan-calculator/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section-4-dom-projects/loan-calculator/img/loading.gif" beforeDir="false" afterPath="$PROJECT_DIR$/projects/loan-calculator/img/loading.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section-4-dom-projects/loan-calculator/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/loan-calculator/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section-4-dom-projects/number-guesser-game/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/number-guesser-game/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section-4-dom-projects/number-guesser-game/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/number-guesser-game/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section-4-dom-projects/task-list-project/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/task-list-project/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section-4-dom-projects/task-list-project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/task-list-project/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section-8-api-projects/github-finder/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/github-finder/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section-8-api-projects/github-finder/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/projects/github-finder/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section-8-api-projects/github-finder/github.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/github-finder/github.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section-8-api-projects/github-finder/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/github-finder/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section-8-api-projects/github-finder/ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/github-finder/ui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section-8-api-projects/weather-api/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/weather-api/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section-8-api-projects/weather-api/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/projects/weather-api/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section-8-api-projects/weather-api/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/weather-api/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section-8-api-projects/weather-api/local-storage.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/weather-api/local-storage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section-8-api-projects/weather-api/ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/weather-api/ui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section-8-api-projects/weather-api/weather.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/weather-api/weather.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-list-from-scratch/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/task-list-from-scratch/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-list-from-scratch/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/task-list-from-scratch/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-list-from-scratch/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/projects/task-list-from-scratch/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp-converter/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/temp-converter/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp-converter/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/temp-converter/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp-converter/loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/projects/temp-converter/loader.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp-converter/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/projects/temp-converter/style.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BZF1F4xZ49Cxv5ut4PFrSxi8mw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/projects/iterator-mini-project" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.symbols.html">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/mordern-javascript-from-the-begining/projects/iterator-mini-project/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="symbols.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/mordern-javascript-from-the-begining/section-10-other-new-features-es2015+/symbols.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.symbols.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e45c93bd-3dec-4d74-a594-492fd802021c" name="Changes" comment="" />
+      <created>1657105487613</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657105487613</updated>
+      <workItem from="1657105491999" duration="1006000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
