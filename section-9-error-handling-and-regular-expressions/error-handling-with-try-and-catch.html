@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" />
+    <title>Arrow Function</title>
+</head>
+<body>
+
+<script>
+    const user = {email: 'dan@dan.com'};
+
+    try {
+        // Produce a referenceError
+        // myFunction();
+
+        // Produce TypeError
+        // null.myFunction();
+
+        // Syntax Error
+        // console.log(eval('hello'))
+
+        // URI Error
+        // decodeURIComponent('%');
+
+        if(!user.name) {
+            // throw 'User has no name';
+            throw new SyntaxError('User has no name');
+        }
+
+    } catch (e) {
+        console.log(`User Error: ${e.message}`);
+        // console.log(e.message);
+        // console.log(e.name);
+        // console.log(e instanceof ReferenceError);
+    } finally {
+        console.log('finally runs regardless of result')
+    }
+
+    console.log('program continues')
+</script>
+</body>
+</html>
